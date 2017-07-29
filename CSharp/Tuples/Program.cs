@@ -18,6 +18,7 @@ namespace Tuples
             int[] numbers = { 1, 2, 3, 4, 5, 6 };
             var r = Tally(numbers);
             Console.WriteLine($"Sum: {r.sum}, Count: {r.count}");
+            //Returns Sum: 21, Count: 6
             Console.Read();
         }
 
